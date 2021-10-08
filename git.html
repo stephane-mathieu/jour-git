@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>github</title>
+    <link rel="stylesheet" href="git.css">
+</head>
+
+<body>
+    <div class="titreh1">
+        <h1>AIDE-MÉMOIRE GITHUB GIT </h1>
+    </div>
+    <section class="tableau1">
+        <table class="test1">
+            <caption>
+                <h4>CRÉER DES DÉPÔTS</h4>
+                <p>Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante</p>
+            </caption>
+            <tr>
+                <td>git init [nom-du-projet]</td>
+                <td>Crée un dépôt local à partir du nom spécifié</td>
+            </tr>
+            <tr>
+                <td>git clone [url]</td>
+                <td>Télécharge un projet et tout son historique de versions</td>
+            </tr>
+        </table>
+    </section>
+    <section class="tableau2">
+        <table class="test">
+            <caption>
+                <h4>CONFIGURATION DES OUTILS</h4>
+                <p>Configurer les informations de l'utilisateur pour tous les dépôts locaux</p>
+            </caption>
+            <tr>
+                <td>git config --global user.name "[nom]"</td>
+                <td>Définit le nom que vous voulez associer à toutes vos opérations de commit
+                </td>
+            </tr>
+            <tr>
+                <td>git config --global user.email "[adresse email]"</td>
+                <td>Définit l'email que vous voulez associer à toutes vos opérations de commit</td>
+
+            </tr>
+            <tr>
+                <td>git config --global color.ui auto</td>
+                <td>Active la colorisation de la sortie en ligne de commande</td>
+            </tr>
+
+        </table>
+    </section>
+    <section class="tableau3">
+        <caption>
+            <h4>EFFECTUER DES CHANGEMENTS</h4>
+            <p>Consulter les modifications et effectuer une opération de commit</p>
+        </caption>
+        <table class="test2">
+            <tr>
+                <td>git status</td>
+                <td>Définit le nom que vous voulez associer à toutes vos opérations de commit
+                </td>
+            </tr>
+            <tr>
+                <td>git diff</td>
+                <td>Définit l'email que vous voulez associer à toutes vos opérations de commit</td>
+            </tr>
+            <tr>
+                <td>git add [fichier]</td>
+                <td>Active la colorisation de la sortie en ligne de commande</td>
+            </tr>
+            <tr>
+                <td>git diff --staged</td>
+                <td>Montre les différences de fichier entre la version indexée et la dernière version
+                </td>
+            </tr>
+            <tr>
+                <td>git reset [fichier]</td>
+                <td>Enleve le fichier de l'index, mais conserve son contenu</td>
+            </tr>
+            <tr>
+                <td>git commit -m "[message descriptif]"</td>
+                <td>Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions</td>
+            </tr>
+        </table>
+    </section>
+    <section class="tableau4">
+        <caption>
+            <h4>GROUPER DES CHANGEMENTS</h4>
+            <p>Nommer une série de commits et combiner les résultats de travaux terminés</p>
+        </caption>
+        <table class="test3">
+            <tr>
+                <td>git branch</td>
+                <td>Liste toutes les branches locales dans le dépôt courant
+                </td>
+            </tr>
+            <tr>
+                <td>git branch [nom-de-branche]</td>
+                <td>Crée une nouvelle branche</td>
+            </tr>
+            <tr>
+                <td>it checkout [nom-de-branche]</td>
+                <td>Bascule sur la branche spécifiée et met à jour le répertoire de travail</td>
+            </tr>
+            <tr>
+                <td>git merge [nom-de-branche]</td>
+                <td>Combine dans la branche courante l'historique de la branche spécifiée</td>
+            </tr>
+            <tr>
+                <td> git branch -d [nom-de-branche]</td>
+                <td>Supprime la branche spécifiée</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+
+</html>
